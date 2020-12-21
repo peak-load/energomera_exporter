@@ -24,6 +24,7 @@ For more information check the [source code documentation](https://pkg.go.dev/gi
 * https://github.com/sj-asm/energomera
 
 ## Documentation / resources
+* GOST-R MEK 61107-2001 (RU) https://standartgost.ru/g/ГОСТ_Р_МЭК_61107-2001
 * Manufacturer website (RU) http://www.energomera.ru
 * Power meter users manual (RU) http://www.energomera.ru/documentations/ce102m_full_re.pdf
 * Power meter basic setup guide (RU) https://shop.energomera.kharkov.ua/DOC/ASKUE-485/meter_settings_network_RS485.pdf
