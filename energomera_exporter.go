@@ -14,8 +14,11 @@ import (
 	"github.com/tarm/serial"
 	"github.com/tkanos/gonfig"
 )
-
+// listen-address sets IP address and port for exporter
 var addr = flag.String("listen-address", ":9101", "The address to listen on for HTTP requests.")
+
+// config sets path to JSON file with energomera settings
+var config = flag.String("config", "config.json", "Config file path for energomera.")
 
 // Configuration for connection
 type Configuration struct {
@@ -86,7 +89,7 @@ func main() {
 
 	configuration := Configuration{}
 
-	err := gonfig.GetConf("config.json", &configuration)
+	err := gonfig.GetConf(*config, &configuration)
 	if err != nil {
 		panic(err)
 	}

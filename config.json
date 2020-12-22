@@ -1,5 +1,1 @@
-{
-     "Port": "/dev/serial0",
-     "SleepInterval": 500,
-     "Counters" : ["000001","000002"]
-}
+etc/energomera/config.json
