@@ -7,6 +7,7 @@ Restart=always
 User=root
 EnvironmentFile=/etc/default/energomera-exporter
 ExecStart=/usr/bin/energomera-exporter $ARGS
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target
