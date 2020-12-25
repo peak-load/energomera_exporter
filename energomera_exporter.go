@@ -15,7 +15,7 @@ import (
 	"github.com/tkanos/gonfig"
 )
 // listen-address sets IP address and port for exporter
-var addr = flag.String("listen-address", ":9101", "The address to listen on for HTTP requests.")
+var addr = flag.String("listen-address", ":9876", "The address to listen on for HTTP requests.")
 
 // config sets path to JSON file with energomera settings
 var config = flag.String("config", "config.json", "Config file path for energomera.")

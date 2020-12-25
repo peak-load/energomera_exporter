@@ -7,4 +7,4 @@ ARGS="--config=/etc/energomera/config.json"
 # energomera-exporter supports the following options:
 #  --config="/etc/energomera/config.json"
 #    Path to config file
-#  --listen-address=":9101"
+#  --listen-address=":9876"

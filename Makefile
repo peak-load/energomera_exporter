@@ -1,4 +1,8 @@
-linux:
-	   GOOS=linux go build -o energomera-exporter
-mac:
-	   GOOS=darwin go build -o energomera-exporter
+TARGET=energomera-exporter
+
+all: energomera_exporter.go
+	go build -o $(TARGET)
+
+clean:
+	go clean
+	rm -f $(TARGET)
