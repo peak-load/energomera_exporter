@@ -34,8 +34,8 @@ func main() {
 
 	voltage := prometheus.NewGaugeVec(
 		prometheus.GaugeOpts{
-			Name: "volatage_volt",
-			Help: "volatage per phase in volts",
+			Name: "voltage_volt",
+			Help: "voltage per phase in volts",
 		},
 		[]string{"id", "phase"},
 	)
